@@ -1,0 +1,21 @@
+/* Smooth dashboard buttons */
+.filament-button {
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.filament-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* Tables highlight rows on hover */
+.filament-tables-table tr:hover {
+    background-color: rgba(91, 192, 190, 0.1); /* Soft teal highlight */
+}
+
+/* Card shadow and rounding */
+.filament-card {
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}
