@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\DB;
 
 class BookingController extends Controller
 {
+        public function index()
+    {
+        return BookingResource::collection(Booking::all());
+    }
     // GET /api/availability?room_slug=junior-suite&from=YYYY-MM-DD&to=YYYY-MM-DD
     public function availability(Request $request)
     {
